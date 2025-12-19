@@ -7,8 +7,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^2.6.12",
-    "vue-template-compiler": "^2.7.14"
+    "vite-plugin-html-template": "^1.2.2",
+    "vue": "^2.7.16",
+    "vue-template-compiler": "^2.7.16"
   },
   "devDependencies": {
     "vite": "^2.0.5",

@@ -4,15 +4,18 @@
       alt="Vue logo"
       src="./assets/logo.png"
     />
-    <HelloWorld msg="Hello Vue 2 + Vite" />
+    <!-- <HelloWorld msg="Hello Vue 2 + Vite" /> -->
+    <Test></Test>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Test from './components/test.js'
 export default {
   components: {
     HelloWorld,
+    Test
   },
 };
 </script>
